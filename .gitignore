@@ -1,0 +1,30 @@
+# Node / Vite
+node_modules/
+npm-debug.log*
+dist/.vite/
+
+# Rust / Tauri build output
+src-tauri/target/
+src-tauri/gen/
+
+# Local application data and generated media
+*.db
+*.db-shm
+*.db-wal
+*.duckdb
+*.duckdb.wal
+media/
+updates/
+settings.json
+
+# Local secrets and provider configuration
+.env
+.env.*
+secrets.json
+
+# Editor / OS files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini

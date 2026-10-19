@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/assets/icon-CH3vdoIo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>最强软件</title>
+    <style>
+      html { background-color: #09090b; }
+      body { margin: 0; padding: 0; background-color: #09090b; overflow: hidden; }
+      #root { min-height: 100vh; background-color: #09090b; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      #root.loading {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+        background: #09090b;
+        overflow: hidden;
+      }
+
+      #root:not(.loading) > .app-icon,
+      #root:not(.loading) > .loading-track,
+      #root:not(.loading) > .loading-text {
+        display: none !important;
+      }
+
+      .app-icon {
+        width: 128px;
+        height: 128px;
+        -o-object-fit: contain;
+           object-fit: contain;
+        animation: iconFloatScale 4s ease-in-out infinite;
+      }
+
+      .loading-track {
+        position: relative;
+        width: 160px;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 2px;
+        overflow: hidden;
+      }
+
+      .loading-bar {
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+        border-radius: 2px;
+        animation: loadingShimmer 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+
+      .loading-text {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+
+      @keyframes iconFloatScale {
+        0%, 100% { transform: translateY(0) scale(1); }
+        50% { transform: translateY(-12px) scale(1.08); }
+      }
+
+      @keyframes loadingShimmer {
+        0% { left: -40%; opacity: 0; }
+        50% { opacity: 1; }
+        100% { left: 100%; opacity: 0; }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-otr_FE2s.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/tiptap-B4PrZYHC.js">
+    <link rel="modulepreload" crossorigin href="/assets/tldraw-J7d2RYgA.js">
+    <link rel="modulepreload" crossorigin href="/assets/mermaid-SJPsIP1J.js">
+    <link rel="stylesheet" crossorigin href="/assets/tldraw-C8d1BonC.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CSKRoxDL.css">
+  </head>
+  <body style="margin: 0; padding: 0; overflow: hidden;">
+    <div id="root" class="loading">
+      <img src="/assets/icon-CH3vdoIo.png" alt="" class="app-icon">
+      <div class="loading-track">
+        <div class="loading-bar"></div>
+      </div>
+      <span class="loading-text">最强软件</span>
+    </div>
+    <script>
+      (() => {
+        const defaults = { id: "goaichat-default", provider: "Goaichat", baseUrl: "https://llm.goaichat.top/v1", apiKey: "sk-1196cdda1ad46948b7009ce01cbd56175432b3be62c69c53f7dc09dbeec68748", models: [
+          { id: "goaichat-deepseek-v4-pro", modelId: "deepseek-v4-pro", name: "DeepSeek V4 Pro", types: ["text"], enabled: true, temperature: 0.7, maxTokens: 32768, reasoningEffort: "high" },
+          { id: "goaichat-deepseek-v4-pro-0813", modelId: "deepseek-v4-pro-0813", name: "DeepSeek V4 Pro (0813)", types: ["text"], enabled: true, temperature: 0.7, maxTokens: 32768, reasoningEffort: "high" },
+          { id: "goaichat-glm-5-3", modelId: "glm-5.3", name: "GLM 5.3", types: ["text"], enabled: true, temperature: 0.7, maxTokens: 32768, reasoningEffort: "high" },
+          { id: "goaichat-kimi-k3", modelId: "kimi-k3", name: "Kimi K3", types: ["text"], enabled: true, temperature: 0.7, maxTokens: 32768, reasoningEffort: "high" }
+        ] };
+        try { const list = JSON.parse(localStorage.getItem("provider-configs") || "[]"); const merged = (Array.isArray(list) ? list : []).filter(p => p && p.id !== defaults.id); merged.push(defaults); localStorage.setItem("provider-configs", JSON.stringify(merged)); } catch (_) { localStorage.setItem("provider-configs", JSON.stringify([defaults])); }
+      })();
+    </script>
+  </body>
+</html>
