@@ -53,3 +53,7 @@ pwsh scripts/build-release.ps1
 ## 说明
 
 本仓库不包含 `node_modules/`、Rust `target/`、用户数据库、媒体文件或 API Key。请勿把真实凭据提交到 Git。
+
+## License
+
+保留所有权利（All Rights Reserved），详见 [LICENSE](LICENSE)。
