@@ -2,6 +2,16 @@
 
 最强软件是一个基于 Tauri 2 + Rust + React 的 AI 创作工作台，包含聊天、提示词组合、笔记、画布、媒体库和生成任务队列。
 
+## 界面
+
+![主界面](docs/screenshot-main.png)
+
+## 下载
+
+最新版本可通过 GitHub Release 获取：
+
+- [v1.0.2 Release](https://github.com/dhue5/zui-qiang-ruan-jian-1/releases/latest)
+
 ## 运行
 
 直接运行发布包中的 `zui_qiang_ruan_jian.exe`，或安装：
