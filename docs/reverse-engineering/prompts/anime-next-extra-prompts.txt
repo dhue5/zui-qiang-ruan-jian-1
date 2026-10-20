@@ -1,0 +1,843 @@
+=== @0x21c0000 len=1081 ===
+EBVIEW_CREATED="tauri://webview-created",e.DRAG_ENTER="tauri://drag-enter",e.DRAG_OVER="tauri://drag-over",e.DRAG_DROP="tauri://drag-drop",e.DRAG_LEAVE="tauri://drag-leave"}(a||(a={})),e.LogLevel=void 0,(t=e.LogLevel||(e.LogLevel={}))[t.Trace=1]="Trace",t[t.Debug=2]="Debug",t[t.Info=3]="Info",t[t.Warn=4]="Warn",t[t.Error=5]="Error",e.attachConsole=async function(){return await u((({level:n,message:r})=>{switch(n){case e.LogLevel.Trace:console.log(r);break;case e.LogLevel.Debug:console.debug(r);break;case e.LogLevel.Info:console.info(r);break;case e.LogLevel.Warn:console.warn(r);break;case e.LogLevel.Error:console.error(r);break;default:throw new Error(`unknown log level ${n}`)}}))},e.attachLogger=u,e.debug=async function(n,r){await i(e.LogLevel.Debug,n,r)},e.error=async function(n,r){await i(e.LogLevel.Error,n,r)},e.info=async function(n,r){await i(e.LogLevel.Info,n,r)},e.trace=async function(n,r){await i(e.LogLevel.Trace,n,r)},e.warn=async function(n,r){await i(e.LogLevel.Warn,n,r)},e}({});Object.defineProperty(window.__TAURI__,"log",{value:__TAURI_PLUGIN_LOG__})}
+
+=== @0x21c085f len=508 ===
+You are a top-tier game and anime concept art design master (Concept Artist), excelling at creating detailed character sheets. You possess "pixel-level deconstruction" skills, allowing you to see through a character's layered clothing, capture subtle facial expression changes, and concretely recreate associated items. You are particularly adept at fleshing out a character's personality and backstory through the side angles of female characters' intimate items, personal belongings, and lifestyle details.
+
+=== @0x21c0a74 len=371 ===
+Based on the main figure uploaded or described by the user, generate a **"Panoramic Character Deep Concept Breakdown Sheet"**. This image must include a full-body standing illustration of the central character, surrounded by displays of the character's clothing layers, various expressions, core props, material close-ups, and highly lifelike intimate and personal items.
+
+=== @0x21c0c33 len=126 ===
+ Center Position (Center): Place the character's full-body standing illustration or primary dynamic pose as the visual anchor.
+
+=== @0x21c0cb6 len=131 ===
+ Surrounding Positions (Surroundings): In the blank spaces around the central character, neatly arrange the deconstructed elements.
+
+=== @0x21c0d3e len=210 ===
+ Visual Guides (Connectors): Use hand-drawn arrows or guide lines to connect the surrounding deconstructed items to the corresponding parts or areas on the central character (e.g., a bag connected to the hand).
+
+=== @0x21c0e9e len=152 ===
+ Break down the character's clothing into individual pieces for display. For multi-layer outfits, show the inner layers after removing the outer jacket.
+
+=== @0x21c0f3b len=366 ===
+ New Addition: Intimate Apparel Deconstruction (Intimate Apparel): Independently showcase the character's undergarments, emphasizing design and material details. For example: a matching lace bra and panties set (highlighting lace pattern details), thong (showing cut and fit), stockings (displaying sheer flesh tone and cuff design), shapewear or safety shorts, etc.
+
+=== @0x21c10d8 len=145 ===
+ In a corner, draw 3-4 different head close-ups showing varied emotions (e.g., aloof, shy, surprised, dazed, or focused while applying lipstick).
+
+=== @0x21c11ab len=101 ===
+ Select 1-2 key areas for magnified close-ups. For example: fabric folds, skin texture, hand details.
+
+=== @0x21c1215 len=192 ===
+ New Addition: Item Texture Close-Ups: Add depictions of small objects' materials, such as the glossy sheen of lipstick, the grainy texture of leather bags, the fine powdery feel of cosmetics.
+
+=== @0x21c1317 len=88 ===
+ This section expands beyond large props to include "lifestyle slices" of the character.
+
+=== @0x21c1374 len=143 ===
+ Personal Bag & Contents (Bag & Contents): Draw the character's everyday commuter bag or clutch, "opened" to show items spilling out beside it.
+
+=== @0x21c1408 len=188 ===
+ Beauty & Grooming (Beauty & Grooming): Display her go-to cosmetics combo (e.g., close-up of a specific shade lipstick/lip gloss, a compact with mirror, perfume bottle design, hand cream).
+
+=== @0x21c14c9 len=384 ===
+ Intimate Lifestyle Items (Lifestyle & Intimate Items): Concretely render items from the character's hidden side. Depending on her personality, this might include: a private diary, commonly used meds/supplement case, e-cigarette, or more personal items (like a user-mentioned fleshlight/sex toy, presented from an objective design sketch perspective, noting model or design features).
+
+=== @0x21c167d len=114 ===
+ Art Style: Maintain a high-quality 2D illustration style or concept design sketch style, with clean, crisp lines.
+
+=== @0x21c16f4 len=105 ===
+ Background: Use a beige, parchment, or light gray textured background to evoke a design manuscript vibe.
+
+=== @0x21c1762 len=211 ===
+ Text Notes: Beside each deconstructed element, simulate handwritten annotations briefly describing materials (e.g., "soft lace," "matte leather") or brand/model hints (e.g., "usual shade #520," "custom piece").
+
+=== @0x21c1884 len=82 ===
+1. Analyze the subject's core features, clothing style, and potential personality.
+
+=== @0x21c18d8 len=77 ===
+2. Extract primary deconstructible elements (jacket, shoes, big expressions).
+
+=== @0x21c1927 len=155 ===
+3. Brainstorm and design secondary deep elements (What style of underwear does she wear? What lipstick is in her bag? What items does she use when alone?).
+
+=== @0x21c19c4 len=144 ===
+4. Generate a composite image containing all these elements, ensuring accurate perspective, unified lighting and shadows, and clear annotations.
+
+=== @0x21c1a56 len=63 ===
+5. Use Chinese: English labels, output in high-definition 4K HD
+
+=== @0x21c1ae3 len=113 ===
+Full-Body View: A central, high-quality illustration of your character serves as the anchor for the entire sheet.
+
+=== @0x21c1b55 len=117 ===
+Layered Clothing Breakdown: See exactly how an outfit is constructed, from the outer jacket down to the inner layers.
+
+=== @0x21c1bcb len=120 ===
+Intimate Apparel Details: Adds a layer of realism and personality by showcasing the character's choice in undergarments.
+
+=== @0x21c1c44 len=123 ===
+Expression Sheet: Multiple headshots capture the character's emotional range, from public-facing moods to private feelings.
+
+=== @0x21c1cc0 len=135 ===
+Personal & Lifestyle Items: A curated collection of items from the character's daily life, revealing their habits, tastes, and secrets.
+
+=== @0x21c1d48 len=124 ===
+Material & Texture Close-ups: Magnified views of key materials like leather, fabric, or even the glossy texture of lipstick.
+
+=== @0x21c5dad len=131 ===
+| ----------- | -------- | ------------------------------------------------------------ | --------------------------------------- |
+
+=== @0x21c5f0f len=131 ===
+|             |          |                                                              |                                         |
+
+=== @0x21c7ebd len=89 ===
+|---------|--------|---------|-----|-----|-----|-----|-----------|-----|-----|----------|
+
+=== @0x21c8a64 len=168 ===
+  - Create a storyboard, highlighting key moments and transitions with cinematic angles, camera movements, and framing that capture the scene's mood and narrative flow.
+
+=== @0x21c8bd2 len=60 ===
+  - Rough simple line storyboard, minimalistic outlines only
+
+=== @0x21c8ffc len=82 ===
+Rough simple line storyboard, minimalistic outlines only / keyframe/Color script",
+
+=== @0x21c9ef7 len=74 ===
+Decompose ONLY this single scene with intelligent multi-shot camera work  
+
+=== @0x21cbb66 len=102 ===
+ | modern office, two people sitting across desk, city skyline through window, professional lighting |
+
+=== @0x21cbc17 len=95 ===
+ | over shoulder shot, interviewer looking serious, shallow depth of field, corporate setting |
+
+=== @0x21cbcbc len=70 ===
+ | close up, nervous job applicant, subtle anxiety, natural lighting |
+
+=== @0x21cbd44 len=79 ===
+ | medium close up, applicant speaking, nervous hand gestures, eye level shot |
+
+=== @0x21cbdd7 len=69 ===
+ | close up, interviewer nodding slightly, poker face, professional |
+
+=== @0x21cbe58 len=70 ===
+ | medium close up, interviewer leaning forward, intense questioning |
+
+=== @0x21cbf4e len=71 ===
+ | medium close up, applicant taking deep breath, regaining composure |
+
+=== @0x21cbfd0 len=68 ===
+ | two shot, both characters, tension easing, balanced composition |
+
+=== @0x21ce0a3 len=85 ===
+ | rooftop at night, lone man at edge, city lights below, cold blue tone, cinematic |
+
+=== @0x21ce166 len=69 ===
+ | crumpled resignation letter, close up, wrinkled paper, dim light |
+
+=== @0x21ce54e len=68 ===
+ | dawn flooding rooftop, man pushing door open, warm golden light |
+
+=== @0x21d2458 len=82 ===
+ | narrow urban alley, two men facing off, gritty atmosphere, cinematic lighting |
+
+=== @0x21d24f2 len=71 ===
+ | plainclothes detective, combat stance, reaching for holster, tense |
+
+=== @0x21d2579 len=64 ===
+ | extreme close up, detective's determined eyes, intense gaze |
+
+=== @0x21d321d len=136 ===
+Chinese xianxia style, ethereal mist, jade and gold color palette, flowing silk ribbons, ink wash painting atmosphere, divine light rays
+
+=== @0x21d32c0 len=129 ===
+Western high fantasy, medieval stone architecture, dramatic volumetric lighting, rich jewel tones, epic scale, detailed metalwork
+
+=== @0x21d3359 len=143 ===
+Hard sci-fi aesthetic, clean geometric surfaces, holographic blue interfaces, minimalist architecture, sterile white lighting, chrome and glass
+
+=== @0x21d3403 len=133 ===
+Cyberpunk aesthetic, neon glow, rain-slicked streets, holographic advertisements, dense urban layering, magenta and cyan color scheme
+
+=== @0x21d34a3 len=152 ===
+Dark gothic aesthetic, dramatic chiaroscuro lighting, stone and iron textures, deep shadows, blood red and midnight blue accents, cathedral architecture
+
+=== @0x21d3559 len=127 ===
+Surreal dreamscape, impossible geometry, soft pastel colors, floating elements, defying gravity, ethereal glow, painted quality
+
+=== @0x21d46ba len=138 ===
+`Chinese xianxia style, ethereal mist, jade and gold color palette, flowing silk ribbons, ink wash painting atmosphere, divine light rays`
+
+=== @0x21d4829 len=107 ===
+ | ancient underground ruins, stone walls with carved symbols, young boy standing in center, torch light, [
+
+=== @0x21d48f9 len=72 ===
+ | finger touching stone wall, faint golden glow at contact, close up, [
+
+=== @0x21d49b0 len=62 ===
+ | symbols lighting up sequentially, golden light spreading, [
+
+=== @0x21d4c9a len=61 ===
+ | beam breaking ceiling, debris, illuminating ruins, epic, [
+
+=== @0x21d4d37 len=63 ===
+ | light fading, boy landing, symbols dimming, dust settling, [
+
+=== @0x21d79d6 len=75 ===
+ | abandoned hospital corridor, flashlight beam, dark atmosphere, ominous |
+
+=== @0x21d7a72 len=62 ===
+ | POV shot, scanning corridor, decayed walls, eerie silence |
+
+=== @0x21d7b05 len=68 ===
+ | protagonist walking slowly, echoing footsteps, tense atmosphere |
+
+=== @0x21d7b90 len=61 ===
+ | strange red symbol on wall, close inspection, mysterious |
+
+=== @0x21d7c14 len=62 ===
+ | extreme close up, symbol detail, slow push in, unsettling |
+
+=== @0x21d7d26 len=66 ===
+ | approaching sound source, building tension, cautious movement |
+
+=== @0x21d7e41 len=64 ===
+ | slow push in, half-open door, darkness beyond, anticipation |
+
+=== @0x21d7fc6 len=62 ===
+ | reveal, friend emerging, relief mixed with lingering fear |
+
+=== @0x21d83ce len=62 ===
+| ------------ | -------------------- | -------------------- |
+
+=== @0x21da81f len=84 ===
+ | autumn park, golden hour, couple on bench, distance between them, warm lighting |
+
+=== @0x21da8b8 len=60 ===
+ | man glancing at woman, woman looking away, anticipation |
+
+=== @0x21da93b len=66 ===
+ | woman profile, golden hour lighting, hair glowing, soft focus |
+
+=== @0x21dac6f len=63 ===
+ | silhouette, golden hour, pulling back, romantic atmosphere |
+
+=== @0x21dcfd6 len=69 ===
+ | alarm clock, warm autumn sunlight through curtain, dust in light |
+
+=== @0x21dd0f4 len=64 ===
+ | opening window, autumn breeze, golden ginkgo leaves falling |
+
+=== @0x21dd3fd len=60 ===
+ | small table, breakfast setup, steaming tea, cozy autumn |
+
+=== @0x21dd514 len=61 ===
+ | ginkgo leaf falling onto table, autumn light, still life |
+
+=== @0x21e04ae len=61 ===
+|-----|---------|------|-----|---------|------|-------------|
+
+=== @0x21e0530 len=74 ===
+ | - | weak protagonist, being bullied, helpless expression, urban alley |
+
+=== @0x21e45c4 len=240 ===
+You are an expert AI prompt engineer specializing in generating high-quality text prompts for Udio (udio.com), an AI music creation tool. Your primary task is to create optimized, detailed prompts for producing cinematic movie trailer music
+
+=== @0x21e46b7 len=271 ===
+epic, instrumental tracks that build tension, evoke drama, and feature orchestral or hybrid elements without vocals. These prompts should guide Udio to output 30-60 second clips (extendable) that mimic Hollywood trailer scores, like those by Hans Zimmer or John Williams.
+
+=== @0x21e47f3 len=260 ===
+- **Structure Every Prompt**: Use a layered format: [Genre/Style] + [Mood/Atmosphere] + [Key Instruments] + [Tempo/BPM] + [Scene/Theme Description] + [Dynamic Elements] (e.g., [Crescendo], [Build], [Drop]) + [Tags] like instrumental, cinematic, binaural atmos.
+
+=== @0x21e48f8 len=223 ===
+- **Specificity Drives Quality**: Incorporate vivid imagery (e.g., "storm-ravaged alien battlefield") to immerse the AI. Reference eras/artists sparingly (e.g., "in the style of 80s synth trailers") but avoid direct copies.
+
+=== @0x21e49d8 len=173 ===
+- **Instrumental Focus**: Always specify "instrumental" to exclude lyrics. Prioritize orchestral (strings, brass, percussion), electronic (synths, bass), or hybrid elements.
+
+=== @0x21e4a86 len=76 ===
+- **Dynamics & Flow**: Include buildup phases with [Crescendo], pauses via "
+
+=== @0x21e4ad5 len=73 ===
+", and sections like [Intro], [Bridge], [Climax] for trailer-like pacing.
+
+=== @0x21e4b1f len=108 ===
+- **Tempo Guidelines**: 80-100 BPM for suspense/horror; 110-130 BPM for adventure; 140+ BPM for action/epic.
+
+=== @0x21e4b8c len=158 ===
+- **Iteration Tips**: Prompts are for initial 30s generations; advise extending with consistent keywords. Generate variations by tweaking mood or instruments.
+
+=== @0x21e4c2b len=148 ===
+- **Avoid Pitfalls**: Keep prompts under 200 words; no unrelated elements (e.g., pop vocals). Test for coherence in Udio's Manual/Instrumental Mode.
+
+=== @0x21e4cd3 len=113 ===
+When a user requests a trailer music prompt (e.g., "Generate a prompt for a sci-fi chase trailer"), respond with:
+
+=== @0x21e4d45 len=60 ===
+1. **Generated Prompt**: A ready-to-copy Udio prompt string.
+
+=== @0x21e4d82 len=149 ===
+2. **Explanation**: 1-2 sentences on why it works (e.g., "This builds tension via slow synth intro to explosive drop, evoking high-stakes pursuit.").
+
+=== @0x21e4eb3 len=212 ===
+- **Epic Hero**: "Epic orchestral instrumental, [intense/heroic] buildup at [140] BPM, [soaring strings, brass fanfares, thunderous drums] for a [fantasy warrior charge in ancient ruins], cinematic, [crescendo]."
+
+=== @0x21e4f88 len=240 ===
+- **Sci-Fi Tension**: "Futuristic synthwave instrumental, [mysterious/urgent] tension with [deep bass synths, pulsing electronic drums], [120] BPM driving rhythm for a [neon-lit space chase through asteroid fields], binaural atmos, [build] 
+
+=== @0x21e508a len=204 ===
+- **Horror Dread**: "Dark cinematic orchestral, [eerie/chilling] atmosphere with [low cellos, subtle violin whispers], slow [80] BPM, [haunted mansion shadows creeping in fog] evoking dread, [piano solo] 
+
+=== @0x21e5168 len=234 ===
+- **Adventure Quest**: "Uplifting folk-orchestral instrumental, [adventurous/inspirational] journey with [acoustic guitar, swelling horns] at [110] BPM, for a [treasure hunt across misty jungles], warm and epic, [bridge] [crescendo]."
+
+=== @0x21e5253 len=231 ===
+- **Superhero Clash**: "High-energy symphonic rock instrumental, [dramatic/explosive] clash with [electric guitars, orchestral brass], fast [150] BPM, [superhero vs. villain showdown in crumbling metropolis], [high voltage] [drop] 
+
+=== @0x21e534d len=113 ===
+Always respond concisely, enthusiastically, and in the user's language. If unclear, ask for genre/scene details. 
+
+=== @0x21e53c5 len=98 ===
+You are a specialized audio generation assistant. When generating sounds, follow these guidelines:
+
+=== @0x21e5446 len=74 ===
+- Include clear temporal markers (while, before, after, then, followed by)
+
+=== @0x21e5491 len=68 ===
+- Specify duration of sounds (briefly, continuously, intermittently)
+
+=== @0x21e554e len=68 ===
+Primary Sound: [Action/Source] + [Sound Quality] + [Duration/Timing]
+
+=== @0x21e5593 len=70 ===
+Background Sound: [Environment] + [Ambient Sounds] + [Intensity Level]
+
+=== @0x21e575f len=75 ===
+Template 3: [Sound Quality] [Sound Event] and [Sound Quality] [Sound Event]
+
+=== @0x21e5990 len=96 ===
+"[Primary Sound Event] [Temporal Marker] [Secondary Sound Event] while [Background Environment]"
+
+=== @0x21e5a08 len=73 ===
+1. "A man speaking softly then a sewing machine briefly turns on and off"
+
+=== @0x21e5a52 len=81 ===
+2. "Bubbles gurgling and water spraying as people talk quietly in the background"
+
+=== @0x21e5aa4 len=72 ===
+3. "People cheering loudly while race cars zoom by with engines roaring"
+
+=== @0x21e5eb0 len=139 ===
+task / meta / subject / attire / pose_expression / environment / lighting_atmosphere / photography_technical / artistic_direction / effects
+
+=== @0x21e6326 len=75 ===
+  "task": "generate-image" | "edit-image" | "variation" | "style-transfer",
+
+=== @0x21e640e len=87 ===
+    "style_priority": "photorealistic" | "cinematic" | "anime" | "product" | "surreal",
+
+=== @0x21e6466 len=112 ===
+    "reference_image_instruction": "use_uploaded_image_as_facial_reference" | "exact_match_face_and_pose" | null
+
+=== @0x21e65f0 len=72 ===
+      "preserve_facial_identity": "100% accurate from reference" | "..."
+
+=== @0x21e6a57 len=60 ===
+    "film_emulation": "Kodak Portra 400 / Fujifilm Superia",
+
+=== @0x21e6a94 len=65 ===
+    "quality": "hyper-realistic, ultra-detailed, 8k, sharp focus"
+
+=== @0x21e6b5c len=65 ===
+    "special_effects": ["bokeh", "volumetric fog", "motion blur"]
+
+=== @0x21e74c8 len=72 ===
+    "quality": "ultra-sharp, detailed skin texture, hyper-realistic, 8k"
+
+=== @0x21e7d17 len=68 ===
+masterpiece, best quality, ultra detailed, cinematic, photorealistic
+
+=== @0x21e806d len=146 ===
+  deformed hands, extra limbs, blurry face, low quality, watermark, text artifacts, cartoonish, 3d render, overexposed, underexposed, plastic skin
+
+=== @0x21e8245 len=79 ===
+'According to the input prompts, analyze the following questions step by step:'
+
+=== @0x21e83ac len=66 ===
+'Can you identify the main elements or characters in this image?',
+
+=== @0x21e8571 len=2208 ===
+'Convert the image description above to the "Midjourney" prompt style. You will never alter the structure and format outlined below in any way, and adhere to the following guidelines: You may not write the word "Description" or use ":" in any form. You will write each prompt on one line without using carriage returns. The prompt is structured as follows: [1] = [keyword] [2] = A detailed description of [1], which will include very specific image details. [3] = With a detailed description describing the environment of the scene. [4] = Describe in detail the mood/feelings and atmosphere of the scene. [5] = style, for example: photography, painting, illustration, sculpture, artwork, paperwork, 3D, etc.). [6] = description of how to implement [5]. (e.g. photography (e.g. macro, fisheye style, portrait) with camera models and appropriate camera settings, drawings and detailed descriptions of materials used and working materials, rendering with engine settings, digital illustrations, woodcut art (and everything else possible The content) is defined as the output type) (Used exactly as written) Format: The content you write will be formatted exactly as the following structure, including "/" and ":" This is the prompt XML structure: "<IMAGE_ANNOTATION>: [1], [2], [3], [4], [5], [6]</IMAGE_ANNOTATION>". Important thing to note when writing prompts, never use / or : between [1], [2], [3], [4], [5], [6] Do not use [] when generating prompts. The tips you provide will be in English. Please note: - Impossibly real concepts will not be described as "real" or "reality" or "photographs" or "photographs". For example, concepts made of paper or scenes related to fantasy. - One of the prompts you generate for each concept must be in a realistic photography style. You should also choose the lens type and size for it. Don't choose an artist for realistic photography tips. - Separate different prompts with two new lines. I will provide you with the keywords and you will generate 3 different prompts in the "vbnet code cell" so that I can copy and paste. Before providing tips, you must check whether you meet all the above conditions and whether you are sure to only provide tips. are you ready?'
+
+=== @0x21e8e71 len=170 ===
+You are generating a high-fidelity, persistent, fully explorable 3D world with consistent geometry, coherent spatial layout, physically plausible lighting and materials. 
+
+=== @0x21e8f1c len=151 ===
+Prioritize: clear depth layering (foreground, midground, background), detailed surface textures, volumetric lighting, realistic scale and proportions. 
+
+=== @0x21e8fb4 len=133 ===
+Avoid: floating objects, contradictory lighting, morphing surfaces, low detail, cartoonish exaggeration unless explicitly requested. 
+
+=== @0x21e903a len=124 ===
+Output a single cohesive, immersive 3D environment that feels like a real, lived-in place people can walk through endlessly.
+
+=== @0x21ec2e5 len=80 ===
+--------------------------------------------------------------------------------
+
+=== @0x21ec818 len=62 ===
+  // "output": { "quality": "string", "style": "string" }, // 
+
+=== @0x21ec885 len=72 ===
+  // "visual_rules": { "prohibited_elements": ["array of strings"] } // 
+
+=== @0x21ee5f7 len=87 ===
+|------|------|------------------|------|----------------------------------|----------|
+
+=== @0x21ee64f len=87 ===
+| 1    |      |                  |      |                                  |          |
+
+=== @0x21ee6a7 len=87 ===
+| ...  |      |                  |      |                                  |          |
+
+=== @0x21ef350 len=62 ===
+""internal error: entered unreachable code: invalid Once state
+
+=== @0x21ef3a0 len=120 ===
+C:\Users\yl\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/rustlib/src/rust\library\std\src\sys\sync\once\futex.rs
+
+=== @0x21efa60 len=146 ===
+StopProgressFreereshFreestandingRefreshFreestandhtFacingTriangleRightFacingTrianMultipleDocumentStatusUnavailablLeftFacingTriangPreferencesGeneral
+
+=== @0x21efb20 len=81 ===
+DataFreestandingInvalidDataFreesLinkFreestandingFollowLinkFreestTRUEVISION-XFILE.
+
+=== @0x21efb80 len=60 ===
+fatal runtime error: thread local panicked on drop, aborting
+
+=== @0x21efc10 len=119 ===
+not yet implementedC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\duckdb-1.4.4\src\types\value_ref.rs
+
+=== @0x21efd58 len=69 ===
+ResizeDirectionEastNorthNorthEastNorthWestSouthSouthEastSouthWestWest
+
+=== @0x21efea8 len=757 ===
+typeinternally tagged enum UserAttentionTypeUserAttentionTypeCriticalInformationaldata did not match any variant of untagged enum EntryRawAddAdvancedBluetoothBookmarksCautionColorPanelColumnViewComputerEnterFullScreenEveryoneExitFullScreenFlowViewFolderFolderBurnableFolderSmartFollowLinkFreestandingFontPanelGoLeftGoRightHomeIChatTheaterIconViewInfoInvalidDataFreestandingLeftFacingTriangleListViewLockLockedLockUnlockedMenuMixedStateMenuOnStateMobileMeMultipleDocumentsNetworkPathPreferencesGeneralQuickLookRefreshFreestandingRefreshRemoveRevealFreestandingRightFacingTriangleShareSlideshowSmartBadgeStatusAvailableStatusNoneStatusPartiallyAvailableStatusUnavailableStopProgressFreestandingStopProgressTrashEmptyTrashFullUserUserAccountsUserGroupUserGuest
+
+=== @0x21f0648 len=86 ===
+a formatting trait implementation returned an error when the underlying stream did not
+
+=== @0x21f0768 len=85 ===
+internal error: entered unreachable codefailed to set environment variable `` to ``: 
+
+=== @0x21f0918 len=117 ===
+\C:\Users\yl\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/rustlib/src/rust\library\std\src\sync\mpmc\array.rs
+
+=== @0x21f0bb8 len=164 ===
+a Display implementation returned an error unexpectedlyC:\Users\yl\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/rustlib/src/rust\library\alloc\src\string.rs
+
+=== @0x21f0d80 len=94 ===
+C:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\muda-0.17.1\src\items\icon.rs
+
+=== @0x21f0fe0 len=84 ===
+CreateWebviewCreateWindowInvalidWindowLabelFailedToSendMessageFailedToReceiveMessage
+
+=== @0x21f1160 len=83 ===
+InvalidMethodEventLoopClosedInvalidProxyUrlWindowNotFoundWebviewRuntimeNotInstalled
+
+=== @0x21f1280 len=66 ===
+logsdata did not match any variant of untagged enum JsImagewindows
+
+=== @0x21f12d8 len=69 ===
+// Copyright 2019-2024 Tauri Programme within The Commons Conservancy
+
+=== @0x21f13bb len=72 ===
+  // drag on mousedown and maximize on double click on Windows and Linux
+
+=== @0x21f1404 len=73 ===
+  // while macOS macos maximization should be on mouseup and if the mouse
+
+=== @0x21f144e len=111 ===
+  // moves after the double click, it should be cancelled (see https://github.com/tauri-apps/tauri/issues/8306)
+
+=== @0x21f159a len=62 ===
+    const attr = e.target.getAttribute(TAURI_DRAG_REGION_ATTR)
+
+=== @0x21f1691 len=65 ===
+      // and was normal click to drag or double click to maximize
+
+=== @0x21f1827 len=108 ===
+      // fix #2549: double click on drag region edge causes content to maximize without window sizing change
+
+=== @0x21f1894 len=80 ===
+      // https://github.com/tauri-apps/tauri/issues/2549#issuecomment-1250036908
+
+=== @0x21f1909 len=114 ===
+      // start dragging if the element has a `tauri-drag-region` data attribute and maximize on double-clicking it
+
+=== @0x21f197c len=80 ===
+      const cmd = e.detail === 2 ? 'internal_toggle_maximize' : 'start_dragging'
+
+=== @0x21f19cd len=63 ===
+      window.__TAURI_INTERNALS__.invoke('plugin:window|' + cmd)
+
+=== @0x21f1a18 len=109 ===
+  // on macOS we maximize on mouseup instead, to match the system behavior where maximization can be canceled
+
+=== @0x21f1b0f len=64 ===
+      const attr = e.target.getAttribute(TAURI_DRAG_REGION_ATTR)
+
+=== @0x21f1c4f len=61 ===
+        // and the cursor hasn't moved from initial mousedown
+
+=== @0x21f1dd8 len=109 ===
+windowvalid pluginC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\plugin.rs
+
+=== @0x21f20d8 len=142 ===
+ReservedNameNotYetImplementedExternalErrorCastErrorMemoryErrorParseErrorSchemaErrorComputeErrorDivideByZeroArithmeticOverflowCsvErrorJsonError
+
+=== @0x21f21a8 len=111 ===
+IoErrorIpcErrorInvalidArgumentErrorParquetErrorCDataInterfaceDictionaryKeyOverflowErrorRunEndIndexOverflowError
+
+=== @0x21f2238 len=119 ===
+OffsetOverflowErrorokC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\duckdb-1.4.4\src\raw_statement.rs
+
+=== @0x21f240b len=74 ===
+overflow when subtracting remaining buffer size from inner stream position
+
+=== @0x21f3430 len=138 ===
+}falsenullpositionsizesize overflows MAX_SIZEC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-1.4.0\src\header\map.rs
+
+=== @0x21f4040 len=96 ===
+RuntimeWindowLabelAlreadyExistsWebviewLabelAlreadyExistsCannotReparentWebviewWindowAssetNotFound
+
+=== @0x21f42c0 len=75 ===
+BadMenuIconNoParentNoExtensionNoBasenameCurrentDirUnknownPathWindowNotFound
+
+=== @0x21f4458 len=114 ===
+TokioOneshotRecvC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\async_runtime.rs
+
+=== @0x21f48d8 len=144 ===
+EventTargetkindlabelinternally tagged enum EventTargetC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\state.rs
+
+=== @0x21f4b40 len=68 ===
+tauri::menu::plugin::MenuChannelsstate() called before manage() for 
+
+=== @0x21f4c10 len=281 ===
+tauri::scope::Scopestauri::path::desktop::PathResolver<tauri_runtime_wry::Wry<tauri::EventLoopMessage>>tauri_plugin_fs::Scopetauri::ipc::channel::ChannelDataIpcQueuepoisoned menu mutexC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\manager\menu.rs
+
+=== @0x21f4d60 len=194 ===
+tauri://drag-entertauri://drag-overtauri://drag-droptauri://drag-leavepoisoned webview managerC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\manager\webview.rs
+
+=== @0x21f4e70 len=67 ===
+data URLs are not supported without the `webview-data-url` feature.
+
+=== @0x21f4ff6 len=85 ===
+httphttpswindows// Copyright 2019-2024 Tauri Programme within The Commons Conservancy
+
+=== @0x21f50b7 len=63 ===
+    return window.crypto.getRandomValues(new Uint32Array(1))[0]
+
+=== @0x21f5159 len=71 ===
+  Object.defineProperty(window.__TAURI_INTERNALS__, 'convertFileSrc', {
+
+=== @0x21f5240 len=61 ===
+        ? `${protocolScheme}://${protocol}.localhost/${path}`
+
+=== @0x21f54ab len=142 ===
+        `[TAURI] Couldn't find callback id ${id}. This might happen when the app is reloaded while Rust is running an asynchronous operation.`
+
+=== @0x21f5fb0 len=101 ===
+ * @typedef {{callback: string, error: string, data: *}} IsolationPayload - a valid isolation payload
+
+=== @0x21f604b len=70 ===
+  const pattern = window.__TAURI_INTERNALS__.__TAURI_PATTERN__.pattern
+
+=== @0x21f60f2 len=73 ===
+   * @type {{queue: object[], ready: boolean, frame: HTMLElement | null}}
+
+=== @0x21f61bb len=61 ===
+   * Detects if a message event is a valid isolation message.
+
+=== @0x21f61fe len=102 ===
+   * @param {MessageEvent<object>} event - a message event that is expected to be an isolation message
+
+=== @0x21f6265 len=67 ===
+   * @return {boolean} - if the event was a valid isolation message
+
+=== @0x21f63b3 len=80 ===
+          (key) => key === 'contentType' || key === 'nonce' || key === 'payload'
+
+=== @0x21f6438 len=68 ===
+   * Detects if data is able to transform into an isolation payload.
+
+=== @0x21f6482 len=103 ===
+   * @param {object} data - object that is expected to contain at least a callback and error identifier
+
+=== @0x21f64ea len=83 ===
+   * @return {boolean} - if the data is able to transform into an isolation payload
+
+=== @0x21f65ff len=63 ===
+   * Sends a properly formatted message to the isolation frame.
+
+=== @0x21f6644 len=93 ===
+   * @param {IsolationPayload} data - data that has been validated to be an isolation payload
+
+=== @0x21f66d0 len=60 ===
+    // set the frame dom element if it's not been set before
+
+=== @0x21f6729 len=72 ===
+      const frame = document.querySelector('iframe#__tauri_isolation__')
+
+=== @0x21f67eb len=76 ===
+          'Tauri IPC found an isolation iframe, but it had the wrong origin'
+
+=== @0x21f6889 len=61 ===
+    if (!isolation.frame || !isolation.frame.contentWindow) {
+
+=== @0x21f68dc len=78 ===
+        'Tauri "Isolation" Pattern could not find the Isolation iframe window'
+
+=== @0x21f6947 len=83 ===
+    // `postMessage` uses `structuredClone` to serialize the data before sending it
+
+=== @0x21f699b len=88 ===
+    // unlike `JSON.stringify`, we can't extend a type with a method similar to `toJSON`
+
+=== @0x21f69f4 len=95 ===
+    // so that `structuredClone` would use, so until https://github.com/whatwg/html/issues/7428
+
+=== @0x21f702f len=85 ===
+              'Tauri "Isolation" Pattern found an invalid isolation message payload',
+
+=== @0x21f719d len=115 ===
+            'Tauri IPC found a Tauri Pattern, but it was an error. Check for other log messages to find the cause.'
+
+=== @0x21f7258 len=72 ===
+            'Tauri IPC did not find a Tauri Pattern that it understood.'
+
+=== @0x21f72d8 len=79 ===
+   * IMPORTANT: See isolation_secure.js for the isolation frame implementation.
+
+=== @0x21f73fe len=82 ===
+        // watch for the isolation frame being ready and flush any queued messages
+
+=== @0x21f757b len=60 ===
+          window.__TAURI_INTERNALS__.postMessage(event.data)
+
+=== @0x21f7669 len=64 ===
+          Object.defineProperty(window, '__TAURI_INTERNALS__', {
+
+=== @0x21f7705 len=73 ===
+          Object.defineProperty(window.__TAURI_INTERNALS__, 'metadata', {
+
+=== @0x21f7f28 len=174 ===
+EmptyHostIdnaErrorInvalidPortInvalidIpv4AddressInvalidIpv6AddressInvalidDomainCharacterRelativeUrlWithoutBaseRelativeUrlWithCannotBeABaseBaseSetHostOnCannotBeABaseUrlOverflow
+
+=== @0x21f80c0 len=134 ===
+usize overflow when calculating b64 lengthC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.22.1\src\encode.rs
+
+=== @0x21f8280 len=125 ===
+`len` greater than remainingC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\http-body-util-0.1.3\src\util.rs
+
+=== @0x21f83f8 len=97 ===
+state not managed for field `` on command ``. You must call `.manage()` before using this command
+
+=== @0x21f8830 len=62 ===
+invalid channel value ``, expected a string in the `ID` format
+
+=== @0x21f8e08 len=133 ===
+failed to spawn threadC:\Users\yl\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/rustlib/src/rust\library\std\src\thread\mod.rs
+
+=== @0x21f8f48 len=122 ===
+Object.defineProperty(window, 'ipc', { value: Object.freeze({ postMessage: s=> window.chrome.webview.postMessage(s) }) });
+
+=== @0x21f9028 len=153 ===
+--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection --autoplay-policy=no-user-gesture-required --proxy-server=http:// --proxy-server=socks5://
+
+=== @0x21f9590 len=130 ===
+ErrorNullBooleanTinyIntSmallIntIntBigIntHugeIntUTinyIntUSmallIntUIntUBigIntFloatDoubleDecimalTimestampTextBlobDate32Time64Interval
+
+=== @0x21f98c8 len=79 ===
+InvalidPathExecuteReturnedResultsQueryReturnedNoRowsQueryReturnedMoreThanOneRow
+
+=== @0x21f99d8 len=145 ===
+ArrowTypeToDuckdbTypeStatementChangedRowsToSqlConversionFailureInvalidQueryMultipleStatementInvalidParameterCountInvalidParameterIndexAppendError
+
+=== @0x21f9be8 len=182 ===
+window.__TAURI_INTERNALS__.invoke('', null, { headers: { '': '' } }).then((response) => window.__TAURI_INTERNALS__.runCallback(, { message: response, index:  })).catch(console.error)
+
+=== @0x21f9e90 len=120 ===
+__TAURI_CHANNEL__valid pluginC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\plugin.rs
+
+=== @0x21f9f28 len=71 ===
+\;// Copyright 2019-2024 Tauri Programme within The Commons Conservancy
+
+=== @0x21f9fb8 len=67 ===
+Object.defineProperty(window.__TAURI_INTERNALS__.plugins, 'path', {
+
+=== @0x21fa108 len=352 ===
+tauri://resizetauri://movetauri://close-requestedtauri://destroyedtauri://blurtauri://focustauri://scale-changetauri://drag-entertauri://drag-overtauri://drag-droptauri://drag-leavetauri://theme-changedpathspositionscaleFactorsizepoisoned window managerC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\manager\window.rs
+
+=== @0x21fa338 len=130 ===
+NotYetImplementedExternalErrorCastErrorMemoryErrorParseErrorSchemaErrorComputeErrorDivideByZeroArithmeticOverflowCsvErrorJsonError
+
+=== @0x21fa650 len=100 ===
+okC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\duckdb-1.4.4\src\raw_statement.rs
+
+=== @0x21fac38 len=79 ===
+SELECT id, title, content, source_type, source_id, created_at, updated_at, tags
+
+=== @0x21fadd8 len=88 ===
+INSERT INTO notes (title, content, source_type, source_id, created_at, updated_at, tags)
+
+=== @0x21faec0 len=91 ===
+UPDATE notes SET title = ?1, content = ?2, updated_at = ?3, tags = ?4 WHERE id = ?5SELECT 1
+
+=== @0x21faf40 len=111 ===
+INSERT INTO messages (conversation_id, role, content, created_at, model, media_type, media_url, media_metadata)
+
+=== @0x21fafe5 len=80 ===
+             RETURNING idUPDATE conversations SET updated_at = ?1 WHERE id = ?2%
+
+=== @0x21fb140 len=91 ===
+INSERT INTO canvases (title, content, source_type, source_id, created_at, updated_at, tags)
+
+=== @0x21fb1cd len=138 ===
+             RETURNING idDELETE FROM canvases WHERE id = ?1SELECT id, title, content, source_type, source_id, created_at, updated_at, tags
+
+=== @0x21fb273 len=250 ===
+             ORDER BY updated_at DESCUPDATE canvases SET title = ?1, content = ?2, updated_at = ?3, tags = ?4 WHERE id = ?5UPDATE messages SET deleted = TRUE WHERE id = ?1SELECT id, title, content, source_type, source_id, created_at, updated_at, tags
+
+=== @0x21fb3aa len=101 ===
+             ORDER BY updated_at DESCDELETE FROM notesSELECT id, title, created_at, updated_at, model
+
+=== @0x21fb430 len=73 ===
+             WHERE id = ?1SELECT id, title, created_at, updated_at, model
+
+=== @0x21fb49a len=101 ===
+             ORDER BY updated_at DESCINSERT INTO conversations (title, created_at, updated_at, model)
+
+=== @0x21fb525 len=139 ===
+             RETURNING idDELETE FROM conversations WHERE id = ?1SELECT id, message_id, conversation_id, status, progress, error, timestamp,
+
+=== @0x21fb5b1 len=81 ===
+                    completed_at, model_id, model_provider, model_type, provider,
+
+=== @0x21fb660 len=92 ===
+             WHERE id = ?1SELECT DISTINCT c.id, c.title, c.created_at, c.updated_at, c.model
+
+=== @0x21fb6df len=61 ===
+             LEFT JOIN messages m ON c.id = m.conversation_id
+
+=== @0x21fb7bf len=77 ===
+                id, message_id, conversation_id, status, progress, timestamp,
+
+=== @0x21fb80d len=76 ===
+                model_id, model_provider, model_type, provider, request_data
+
+=== @0x21fb85a len=228 ===
+            ) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11)DELETE FROM generation_tasks WHERE id = ?1status = ?progress = ?error = ?completed_at = ?result_url = ?result_data = ?, UPDATE generation_tasks SET  WHERE id = ?
+
+=== @0x21fbad8 len=100 ===
+DELETE FROM conversationsSELECT id, message_id, conversation_id, status, progress, error, timestamp,
+
+=== @0x21fbbec len=144 ===
+             ORDER BY timestamp DESCSELECT id, conversation_id, role, content, created_at, model, deleted, media_type, media_url, media_metadata
+
+=== @0x21fbcd4 len=130 ===
+             ORDER BY created_at ASCUPDATE conversations SET title = ?1, updated_at = ?2 WHERE id = ?3DELETE FROM generation_tasks
+
+=== @0x21fbd79 len=144 ===
+             AND status IN ('"Completed"', '"Failed"', '"Cancelled"')SELECT id, message_id, conversation_id, status, progress, error, timestamp,
+
+=== @0x21fc010 len=75 ===
+SELECT id, message_id, conversation_id, status, progress, error, timestamp,
+
+=== @0x21fc31b len=292 ===
+             ORDER BY timestamp DESCCREATE SEQUENCE IF NOT EXISTS conversations_id_seq START 1CREATE SEQUENCE IF NOT EXISTS messages_id_seq START 1CREATE SEQUENCE IF NOT EXISTS notes_id_seq START 1CREATE SEQUENCE IF NOT EXISTS canvases_id_seq START 1CREATE TABLE IF NOT EXISTS conversations (
+
+=== @0x21fc440 len=79 ===
+                id INTEGER PRIMARY KEY DEFAULT nextval('conversations_id_seq'),
+
+=== @0x21fcc78 len=68 ===
+            )CREATE INDEX IF NOT EXISTS idx_messages_conversation_id
+
+=== @0x21fccbd len=96 ===
+             ON messages(conversation_id)CREATE INDEX IF NOT EXISTS idx_conversations_created_at
+
+=== @0x21fcd1e len=93 ===
+             ON conversations(created_at DESC)CREATE INDEX IF NOT EXISTS idx_notes_updated_at
+
+=== @0x21fcd7c len=88 ===
+             ON notes(updated_at DESC)CREATE INDEX IF NOT EXISTS idx_canvases_updated_at
+
+=== @0x21fcdd5 len=95 ===
+             ON canvases(updated_at DESC)CREATE INDEX IF NOT EXISTS idx_generation_tasks_status
+
+=== @0x21fce35 len=97 ===
+             ON generation_tasks(status)CREATE INDEX IF NOT EXISTS idx_generation_tasks_timestamp
+
+=== @0x21fce97 len=106 ===
+             ON generation_tasks(timestamp DESC)CREATE INDEX IF NOT EXISTS idx_generation_tasks_message_id
+
+=== @0x21fcf02 len=107 ===
+             ON generation_tasks(message_id)CREATE INDEX IF NOT EXISTS idx_generation_tasks_conversation_id
+
+=== @0x21fcf6e len=128 ===
+             ON generation_tasks(conversation_id)SELECT id, title, content, source_type, source_id, created_at, updated_at, tags
+
+=== @0x21fd007 len=60 ===
+             WHERE id = ?1The statement was not executed yet
+
+=== @0x21fd850 len=114 ===
+__app-acl__}C:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-plugin-fs-2.4.5\src\commands.rs
+
+=== @0x21fd988 len=155 ===
+nameisDirectoryisFileisSymlinksizemtimeatimebirthtimereadonlyfileAttribuesdevinomodenlinkuidgidrdevblksizeblocksfailed to get metadata of file with error: 
+
+=== @0x21fdd10 len=65 ===
+struct SubmitTaskRequestpendinggeneratingcompletedfailedcancelled
+
+=== @0x21fdda8 len=210 ===
+task_idmessage_idconversation_idmodel_idmodel_providermodel_typeproviderpromptoptionsPickerModeFileAccessModeC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-plugin-dialog-2.6.0\src\lib.rs
+
+=== @0x21fdf28 len=334 ===
+dialog!function(){"use strict";async function n(n,i={},o){return window.__TAURI_INTERNALS__.invoke(n,i,o)}"function"==typeof SuppressedError&&SuppressedError,window.alert=function(i){n("plugin:dialog|message",{message:i.toString()})},window.confirm=async function(i){return await n("plugin:dialog|confirm",{message:i.toString()})}}();
+
+=== @0x21fe077 len=103 ===
+valid pluginC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\plugin.rs
+
+=== @0x21fe0f8 len=159 ===
+titleinternal error: entered unreachable codeC:\Users\yl\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/rustlib/src/rust\library\std\src\sync\mpmc\mod.rs
+
+=== @0x21feaaa len=67 ===
+Object.defineProperty(window, '__TAURI_EVENT_PLUGIN_INTERNALS__', {
+
+=== @0x21feaf9 len=60 ===
+    unregisterListener: __RAW_unregister_listener_function__
+
+=== @0x21febb8 len=104 ===
+widthheightC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-2.10.2\src\scope\fs.rs
+
+=== @0x21ff048 len=198 ===
+image_sizenum_inference_stepsnum_imagesenable_safety_checkersync_modeimage_urlsaspect_ratiooutput_formatresolutionenable_web_searchlimit_generationserrorFailed to create HTTP clientsrc\fal_client.rs
+
+=== @0x21ff160 len=249 ===
+TaskTyperesult_typebase64filenamecontentProviderTypestatusprogressresultidsource_typesource_idcreated_atupdated_attagsrolemodeldeletedmedia_typemedia_urlmedia_metadatatimestampcompleted_atrequest_dataresult_urlresult_dataThinking method not found: =
+
+=== @0x21ff2da len=75 ===
+Please select at least a thinking method or output formatsrc\prompts\mod.rs
+
+=== @0x21ff3d0 len=105 ===
+itemscategory_nameitem_namethinking_nameoutput_namebase_promptthinking_promptoutput_promptcomposed_prompt
+
+=== @0x21ff927 len=97 ===
+@  C:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\encoding_rs-0.8.35\src\lib.rs
+
+=== @0x21ff9a8 len=141 ===
+fsread_dirglobalScopecommandScopepathoptionsC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-plugin-fs-2.4.5\src\lib.rs
+
+=== @0x21ffa50 len=271 ===
+ftruncateridlenwritedataread_filecopy_filefromPathtoPathread_text_file_lines_nextseekoffsetwhencewrite_filerequestread_text_filetruncatewrite_text_filesizereadwrite-fileC:\Users\yl\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tauri-plugin-fs-2.4.5\src\commands.rs
+

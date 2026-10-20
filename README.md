@@ -2,6 +2,13 @@
 
 最强软件是一个基于 Tauri 2 + Rust + React 的 AI 创作工作台，包含聊天、提示词组合、笔记、画布、媒体库和生成任务队列。
 
+## 文档
+
+- [使用说明](docs/使用说明.md)
+- [技术说明](docs/技术说明.md)
+- [开发者重建手册](docs/开发者重建手册.md)
+- [逆向与重建资料](docs/reverse-engineering/)
+
 ## 界面
 
 ![主界面](docs/screenshot-main.png)
