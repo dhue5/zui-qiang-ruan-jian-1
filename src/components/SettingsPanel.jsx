@@ -1,0 +1,5 @@
+import React from "react";
+export default function SettingsPanel({ providers, setProviders, selectedModel, setSelectedModel }) {
+  const provider = providers[0] || {}; const update = (key, value) => setProviders([{ ...provider, [key]: value }]);
+  return <section className="tool-page"><header className="page-header"><div><h1>模型设置</h1><span className="muted">OpenAI-compatible 服务商</span></div></header><div className="settings-card"><label>服务商<input value={provider.provider || ""} onChange={(e) => update("provider", e.target.value)} /></label><label>Base URL<input value={provider.baseUrl || ""} onChange={(e) => update("baseUrl", e.target.value)} /></label><label>API Key<input type="password" value={provider.apiKey || ""} onChange={(e) => update("apiKey", e.target.value)} placeholder="留空则使用本地回退配置" /></label><label>默认模型<select value={selectedModel} onChange={(e) => setSelectedModel(e.target.value)}>{(provider.models || []).map((m) => <option key={m.modelId} value={m.modelId}>{m.name}</option>)}</select></label></div><p className="hint">默认最大输出 32768 tokens，思考强度 high。不要把真实 API Key 提交到公开仓库。</p></section>;
+}

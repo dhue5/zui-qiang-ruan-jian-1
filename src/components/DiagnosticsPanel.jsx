@@ -1,0 +1,3 @@
+import React, { useEffect, useState } from "react";
+import { invoke } from "../tauri";
+export default function DiagnosticsPanel() { const [data, setData] = useState(null); const [error, setError] = useState(""); useEffect(() => { invoke("diagnostics_info").then(setData).catch((e) => setError(String(e))); }, []); return <section className="tool-page"><header className="page-header"><div><h1>诊断信息</h1><span className="muted">不包含 API Key 或聊天内容</span></div></header>{error && <div className="error-banner">{error}</div>}<pre className="diagnostics">{JSON.stringify(data || { loading: true }, null, 2)}</pre></section>; }
